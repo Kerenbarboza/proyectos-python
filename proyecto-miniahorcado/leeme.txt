@@ -1,0 +1,20 @@
+Este programa es una versión sencilla del clásico juego del ahorcado, escrita en Python.
+El jugador debe adivinar una palabra oculta, letra por letra, antes de agotar los 6 intentos disponibles.
+
+⚙️ Cómo jugar
+
+Ejecuta el archivo principal (minijuego_ahorcado.py) desde tu terminal o entorno Python.
+
+El programa elegirá una palabra al azar y mostrará una serie de guiones o palitos (_) representando las letras ocultas.
+
+Ingresa una letra por turno:
+
+Si la letra está en la palabra, se revelará su posición.
+
+Si no, perderás un intento.
+
+Tienes 6 intentos en total.
+
+Ganas si adivinas todas las letras antes de que se acaben los intentos.
+
+Pierdes si los 6 intentos se agotan sin adivinar la palabra.
