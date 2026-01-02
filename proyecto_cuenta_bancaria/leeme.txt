@@ -1,0 +1,6 @@
+En este proyecto se desarrolla un programa en Python utilizando programación orientada a objetos para simular operaciones básicas de una cuenta bancaria.
+
+Se crean dos clases: Persona, con los atributos nombre y apellido, y Cliente, que hereda de Persona y añade número de cuenta y balance. 
+La clase Cliente permite imprimir los datos del cliente, depositar dinero y retirar dinero, asegurando que no se pueda retirar más saldo del disponible.
+
+El programa solicita al usuario crear un cliente y luego le permite realizar depósitos y retiros en un bucle hasta que decida salir, manteniendo siempre actualizado el saldo de la cuenta.
