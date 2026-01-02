@@ -1,0 +1,3 @@
+Sistema de turnos para una farmacia con tres áreas de atención (perfumería, farmacia y cosmética). 
+El programa asigna turnos correlativos por área usando generadores y muestra el mensaje al cliente mediante un decorador. 
+La lógica se divide en módulos para mantener el código simple y reutilizable.
