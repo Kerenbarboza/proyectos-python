@@ -1,0 +1,27 @@
+Descripción del Proyecto
+-El objetivo es desarrollar un Buscador de Números de Serie en Python.
+-El programa debe recorrer de forma recursiva un árbol de carpetas (directorio raíz descomprimido) y analizar todos los archivos .txt en busca de números de serie que cumplan un formato específico.
+-Se garantiza que como máximo habrá un número de serie por archivo.
+
+Formato del Número de Serie
+El patrón válido es:
+-Letra N
+-Tres letras consecutivas
+-Un guion -
+-Cinco números
+Ejemplo: Nryu-12365
+
+Requisitos Técnicos
+-Usar el módulo os (preferentemente os.walk) para recorrer carpetas y archivos.
+-Usar expresiones regulares para detectar los números de serie.
+-Usar datetime para mostrar la fecha actual en formato dd/mm/aa.
+-Usar el módulo time para medir la duración de la búsqueda.
+-La duración debe mostrarse redondeada hacia arriba.
+-La salida debe imprimirse en formato de tabla, usando tabulaciones (\t).
+
+Salida Esperada
+El programa debe mostrar:
+-Fecha de la búsqueda.
+-Listado de archivos que contienen números de serie y su valor.
+-Cantidad total de números encontrados.
+-Duración total de la búsqueda en segundos.
